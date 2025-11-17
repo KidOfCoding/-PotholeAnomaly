@@ -345,8 +345,8 @@ with tab_arch:
             st.warning("Architecture diagram image (image.png) not found")
     
     with col2:
-        if os.path.exists("Gemini_Generated_Image_nki7l0nki7l0nki7.png"):
-            st.image("Gemini_Generated_Image_nki7l0nki7l0nki7.png", 
+        if os.path.exists("Attentive_U_net_Architecture.png"):
+            st.image("Attentive_U_net_Architecture.png", 
                     caption="Detailed Architecture Visualization", 
                     use_container_width=True,
                     output_format="PNG")
