@@ -335,7 +335,7 @@ with tab_arch:
     # Display the architecture images
     col1, col2 = st.columns(2)
     
-    with col1:
+    with col2:
         if os.path.exists("image.png"):
             st.image("image.png", 
                     caption="Attentive U-Net Architecture Diagram", 
@@ -344,10 +344,10 @@ with tab_arch:
         else:
             st.warning("Architecture diagram image (image.png) not found")
     
-    with col2:
+    with col1:
         if os.path.exists("attentive_unet_architecture.jpg"):
             st.image("attentive_unet_architecture.jpg", 
-                    caption="Detailed Architecture Visualization", 
+                    caption="Detailed Overall Architecture Visualization", 
                     use_container_width=True,
                     output_format="JPG")
         else:
