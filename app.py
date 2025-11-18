@@ -349,7 +349,7 @@ with tab_arch:
             st.image("attentive_unet_architecture.jpg", 
                     caption="Detailed Architecture Visualization", 
                     use_container_width=True,
-                    output_format="PNG")
+                    output_format="JPG")
         else:
             st.warning("Gemini generated architecture image not found")
 
